@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/LandmarksIDManagerDelegate.h</key>
+		<data>
+		pT6ektNW4QoZh5A2JIdLNsQuonA=
+		</data>
 		<key>Headers/LandmarksIDSDK.h</key>
 		<data>
 		y73cHA34SI4MRhWfg2e8S0Mc1m4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+BCLbSQSNH3BGLimHyZwgVmk9jI=
+		/qXReRU/XEh7YGwdVjVibAMsIx4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -19,6 +23,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/LandmarksIDManagerDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pT6ektNW4QoZh5A2JIdLNsQuonA=
+			</data>
+			<key>hash2</key>
+			<data>
+			VO+lEqN2OZmCe2Nn7d5MC8jx7zP0dmWtQ4x44SNOU/s=
+			</data>
+		</dict>
 		<key>Headers/LandmarksIDSDK.h</key>
 		<dict>
 			<key>hash</key>
