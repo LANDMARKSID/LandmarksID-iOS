@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "LandmarksID"
-  s.version = "2.4.0"
+  s.version = "2.4.1"
   s.summary = "LANDMARKS ID is a real world insights platform that helps brands learn more about their customers, locations and competitors"
   s.description = "LANDMARKS ID is a real world insights platform that helps brands learn more about their customers, locations and competitors"
   s.homepage = "https://www.landmarksid.com"
