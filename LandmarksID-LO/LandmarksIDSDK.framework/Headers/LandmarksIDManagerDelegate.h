@@ -13,20 +13,16 @@
 
 @interface LandmarksIDManagerDelegate : NSObject <CLLocationManagerDelegate, NSURLSessionDelegate, NSURLSessionDataDelegate>
 
-@property (nonatomic, strong) CLLocationManager* locationManager;
+@property (nonatomic, strong, nonnull) CLLocationManager* locationManager;
 
-@property (nonatomic, strong) NSString *appIdentifier;
-@property (nonatomic, strong) NSString *appSecret;
-@property (nonatomic, strong) NSString* apiURL;
-@property (nonatomic, strong) NSString* debugURL;
-@property (nonatomic, strong) NSString* username;
-@property (nonatomic, strong) NSString* packageName;
+@property (nonatomic, strong, nonnull) NSString *appIdentifier;
+@property (nonatomic, strong, nonnull) NSString *appSecret;
 
-@property (nonatomic, strong) NSString* deviceId;
-@property (nonatomic, strong) NSString* vendorId;
-@property (nonatomic, strong) NSString* sessionId;
-@property (nonatomic, strong) NSString* appBuildVersion;
-@property (nonatomic, strong) NSString* osVersion;
+@property (nonatomic, strong, nonnull) NSString* deviceId;
+@property (nonatomic, strong, nullable) NSString* vendorId;
+@property (nonatomic, strong, nonnull) NSString* sessionId;
+@property (nonatomic, strong, nullable) NSString* appBuildVersion;
+@property (nonatomic, strong, nonnull) NSString* osVersion;
 @property (nonatomic) BOOL adTrackingEnabled;
 
 // APP LEVEL CONFIG
@@ -36,24 +32,19 @@
 @property int terminatedBatchSize;
 @property long terminatedEventsSize;
 @property BOOL shouldCollectData;
-@property NSString* clientId;
-@property NSMutableArray* monitoredApps;
+@property (nonatomic, strong, nonnull) NSString* clientId;
+@property (nonatomic, strong, nonnull) NSMutableArray* monitoredApps;
 
-@property (nonatomic, strong) NSString* customerId;
+@property (nonatomic, strong, nullable) NSString* customerId;
 
-@property (nonatomic, strong) NSURLSession *requestSession;
-@property (nonatomic) UIBackgroundTaskIdentifier *backgroundUpdateTask;
-
-@property NSString *lastSourceEventId;
-
-@property NSMutableDictionary *trackLastLocation;
-@property NSMutableDictionary *usedEventIds;
-@property NSDictionary *lastDeviceInfo;
-@property NSMutableArray *customData;
-@property NSString *customDataType;
-@property NSString *customDataKey;
-@property NSString *customDataValue;
-@property CLLocation *lastLORELocation;
+@property (nonatomic, strong, nonnull) NSMutableDictionary *trackLastLocation;
+@property (nonatomic, strong, nonnull) NSMutableDictionary *usedEventIds;
+@property (nonatomic, strong, nullable) NSDictionary *lastDeviceInfo;
+@property (nonatomic, strong, nonnull) NSMutableArray *customData;
+@property (nonatomic, strong, nullable) NSString *customDataType;
+@property (nonatomic, strong, nullable) NSString *customDataKey;
+@property (nonatomic, strong, nullable) NSString *customDataValue;
+@property (nonatomic, strong, nullable) CLLocation *lastLORELocation;
 @property (nonatomic) BOOL LOTrackingEnabled;
 @property (nonatomic) BOOL LODTrackingEnabled;
 
@@ -66,11 +57,11 @@
 @property (nonatomic) BOOL enableAdvertisingId;
 @property (nonatomic) BOOL enableSimOperator;
 
-@property (nonatomic, strong) NSMutableArray *events;
+@property (nonatomic, strong, nonnull) NSMutableArray *events;
 @property (assign) int LOCount;
 @property (assign) int LODCount;
 
-@property (nonatomic, strong) NSString *allLogs;
+@property (nonatomic, strong, nonnull) NSString *allLogs;
 
 @property (nonatomic) BOOL serverConfigLoaded;
 @property (nonatomic) BOOL loreRequestStatus;
@@ -78,7 +69,7 @@
 @property (nonatomic) BOOL debug;
 @property (nonatomic) BOOL notify;
 
-- (id)init;
+- (instancetype _Nonnull)init;
 
 + (LandmarksIDManagerDelegate* _Nonnull)initialize:(NSString * _Nonnull)appIdentifier
                                   appSecret:(NSString * _Nonnull)appSecret;
@@ -91,7 +82,6 @@
 - (void)stopTracking;
 - (void)applicationWillTerminate;
 - (void)applicationTerminated;
-- (void)testRequest;
 
 // Handle Custom Data
 
