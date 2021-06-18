@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		64egrNKT811yYJm2L9Z39rUciBY=
+		JdpzVzJtRUGYAQNQzTbpCC9WDJ4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -25,6 +25,10 @@
 	<dict>
 		<key>Headers/LandmarksIDManagerDelegate.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TI2RlKRoRK9iBNt0e1A83pdX4Co=
+			</data>
 			<key>hash2</key>
 			<data>
 			YIUK0CjOtSVI3GAS+sjpDOAnFQddxo0K0/SouMUB3bk=
@@ -32,6 +36,10 @@
 		</dict>
 		<key>Headers/LandmarksIDSDK.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			y73cHA34SI4MRhWfg2e8S0Mc1m4=
+			</data>
 			<key>hash2</key>
 			<data>
 			NjLqjiKXp5LqSr4FtMBhER+GkzdZ1hy8ht+ckO9FVCw=
@@ -39,6 +47,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/wXzJqMx11HkQ244eEcFdhzhP0o=
+			</data>
 			<key>hash2</key>
 			<data>
 			apGIQ86KuxuYdaCpishDFOugTfvxF+xzYmukJJU2eco=
