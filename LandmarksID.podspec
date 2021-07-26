@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   }
   s.author = { "LANDMARKSID" => "https://www.landmarksid.com" }
   s.platform = :ios
-  s.source = { :git => 'https://github.com/LANDMARKSID/LandmarksID-iOS.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/matejdr/LandmarksID-iOS.git', :tag => s.version }
   s.requires_arc = true
   s.ios.deployment_target = '10.0'
   s.documentation_url = 'https://docs.landmarksid.com/docs/overview.html'
