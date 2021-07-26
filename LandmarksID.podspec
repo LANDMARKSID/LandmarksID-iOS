@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "LandmarksID"
-  s.version = "2.5.1"
+  s.version = "2.5.0"
   s.summary = "LANDMARKS ID is a real world insights platform that helps brands learn more about their customers, locations and competitors"
   s.description = "LANDMARKS ID is a real world insights platform that helps brands learn more about their customers, locations and competitors"
   s.homepage = "https://www.landmarksid.com"
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   }
   s.author = { "LANDMARKSID" => "https://www.landmarksid.com" }
   s.platform = :ios
-  s.source = { :git => 'https://github.com/matejdr/LandmarksID-iOS.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/LANDMARKSID/LandmarksID-iOS.git', :tag => s.version.to_s }
   s.requires_arc = true
   s.ios.deployment_target = '10.0'
   s.documentation_url = 'https://docs.landmarksid.com/docs/overview.html'
