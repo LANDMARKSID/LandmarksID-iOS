@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   s.default_subspec = 'LO'
   s.subspec 'LO' do |sp|
     sp.vendored_frameworks = 'LandmarksID-LO/LandmarksIDSDK.framework'
-    sp.version = "2.5.1"
   end
   s.subspec 'LOD' do |sp|
     sp.dependency 'BluedotPointSDK', '~> 15.3'
