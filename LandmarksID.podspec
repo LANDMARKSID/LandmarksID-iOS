@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name = "LandmarksID"
-  s.version = "2.5.0"
+  s.version = "2.5.2"
   s.summary = "LANDMARKS ID is a real world insights platform that helps brands learn more about their customers, locations and competitors"
-  s.description = "LANDMARKS ID is a real world insights platform that helps brands learn more about their customers, locations and competitors"
+  s.description = "LANDMARKS ID is a mobile location intelligence platform that provides brands and marketers privacy compliant location data on their customers real world behaviours, brand affinities and purchase intents"
   s.homepage = "https://www.landmarksid.com"
   s.license = {
     :type => 'Copyright',
@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   s.default_subspec = 'LO'
   s.subspec 'LO' do |sp|
     sp.vendored_frameworks = 'LandmarksID-LO/LandmarksIDSDK.framework'
-    sp.version = "2.5.1"
   end
   s.subspec 'LOD' do |sp|
     sp.dependency 'BluedotPointSDK', '~> 15.3'
